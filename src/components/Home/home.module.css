@@ -1,0 +1,75 @@
+.landing {
+    display: flex;
+    border: red 2px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    border: red 2px;
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    color: #404040;
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #404040;
+}
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #404040;
+}  
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #404040;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #404040;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #404040;
+}

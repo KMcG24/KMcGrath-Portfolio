@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    /* font-family: 'Marcellus', serif; */
+    font-family: 'Playfair Display SC', serif;
+  
+
+
+}
+
+.aboutPhoto {
+    display: flex;
+    height: 600px;
+    object-fit: contain;
+   
+}
+
+.text {
+    margin-right: 100px;
+  
+  
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    
+}
