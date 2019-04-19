@@ -1,21 +1,43 @@
+.container {
+    display: flex;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2vw;
+}
+
+.greeting {
+    font-family: 'Caudex', serif;
+}
+
 .name {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30vw;
+    font-family: 'Caudex', serif;
 }
 
 .email {
-  margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30vw;
+    font-family: 'Caudex', serif;
 }
 
 .message {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65vw;
+    width: 50vw;
     height: 20vw;
+    font-family: 'Caudex', serif;
 }
 
+.image {
+    width: 50vw;
+}
 /* NEED TO MAKE RESPONSIVE */

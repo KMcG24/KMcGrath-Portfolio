@@ -6,6 +6,16 @@ import NavBar from "../NavBar"
 
 export default () =>
 <>
+<div className={css.container}>
+
+<div className={css.formContainer}>
+<div className={css.greeting}>
+<p>Please contact me at:</p>
+<p>KLMcGrath2@gmail.com</p>
+<p>or, leave me a message below</p>
+<p>I look forward to hearing from you!</p>
+</div>
+
 <form 
 classname={css.contactForm}
 netlify
@@ -23,6 +33,9 @@ netlify
 <br></br>
 <button className={css.button}>Send</button>
 </form>
+</div>
+<img className={css.image} src="https://images.unsplash.com/photo-1535264325674-401238afc8b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"></img>
 
+</div>
 </>
 

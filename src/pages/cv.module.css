@@ -35,5 +35,6 @@
 }
 
 .image {
+    padding-left: 2vw;
     /* object-fit: contain; */
 }
