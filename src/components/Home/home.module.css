@@ -1,12 +1,10 @@
 .landing {
     display: flex;
-    border: red 2px;
 }
 
 .text {
     display: flex;
     justify-content: center;
-    border: red 2px;
 }
 
 

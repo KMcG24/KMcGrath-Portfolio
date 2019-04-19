@@ -5,5 +5,15 @@ import { Link } from "gatsby"
 
 export default () =>
 <>
-<form className={css.form}/>
+<form 
+name="Contact Form"
+method="post"
+data-netlify="true"
+data-netlify-honeypot="bot-field"
+>
+<input name="name" placeholder="Your Name" type="text"/>
+<input name="email" placeholder="Your Email Address" type="email"/>
+<textarea name="message"/>
+<button>Send</button>
+</form>
 </>
