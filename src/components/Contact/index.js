@@ -21,7 +21,7 @@ classname={css.contactForm}
 
 method="post"
 data-netlify="true"
-data-netlify-honeypot="bot-field"
+// data-netlify-honeypot="bot-field"
 >
 
 
