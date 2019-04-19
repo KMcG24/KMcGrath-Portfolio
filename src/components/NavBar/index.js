@@ -10,6 +10,7 @@ export default () =>
 <Link to="about">About Me</Link>
 <Link to="CV">CV</Link>
 <Link to="Projects">Projects</Link>
+<Link to="Contact">Contact</Link>
 </div>
 {/* <ShareLink/>
 <ShareLink/> */}

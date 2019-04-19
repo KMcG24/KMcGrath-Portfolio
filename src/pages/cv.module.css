@@ -34,6 +34,11 @@
     width: 50vw;
 }
 
+.education {
+    font-family: 'Caudex', serif;
+   
+    width: 50vw;
+}
 .image {
     padding-left: 2vw;
     /* object-fit: contain; */

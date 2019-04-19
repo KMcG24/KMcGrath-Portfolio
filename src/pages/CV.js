@@ -48,7 +48,11 @@ export default () =>
         <li>Account Manager</li>
     </ul>
 </div>
-<div className={css.education}/>
+<div className={css.education}>
+<h3 className={css.educationh3}>Education</h3>
+<div className={css.educationText}/>
+</div>
+
 </div>
 
 <img className={css.image} src="https://images.unsplash.com/photo-1488903809927-48c9b4e43700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/>

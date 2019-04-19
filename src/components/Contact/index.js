@@ -10,18 +10,18 @@ export default () =>
 
 <div className={css.formContainer}>
 <div className={css.greeting}>
-<p>Please contact me at:</p>
-<p>KLMcGrath2@gmail.com</p>
+<h4>Please contact me at:</h4>
+<h3>KLMcGrath2@gmail.com</h3>
 <p>or, leave me a message below</p>
 <p>I look forward to hearing from you!</p>
 </div>
 
 <form 
 classname={css.contactForm}
-netlify
-// method="post"
-// data-netlify="true"
-// data-netlify-honeypot="bot-field"
+
+method="post"
+data-netlify="true"
+data-netlify-honeypot="bot-field"
 >
 
 
