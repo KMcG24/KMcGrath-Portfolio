@@ -2,27 +2,33 @@
     display: flex;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
-}
 
 
-.name {
+
+/* .name {
     display: flex;
-    justify-content: center;
-    height: 50%;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+   font-size: 30px;
     color: #404040;
-    font-family: 'Playfair Display SC', serif;
-}
+    font-family: 'Caudex', serif;
 
+} */
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13vw;
+}
 
 .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
     color: #404040;
@@ -33,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
     color: #404040;
@@ -44,7 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
     color: #404040;
@@ -55,7 +61,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
     color: #404040;
@@ -66,7 +72,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
     color: #404040;

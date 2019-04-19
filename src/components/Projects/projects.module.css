@@ -1,0 +1,10 @@
+.projects {
+display: flex;
+font-family: 'Caudex', serif;
+}
+
+.container {
+    display: block;
+    width: 50vw;
+    font-family: 'Caudex', serif;
+}

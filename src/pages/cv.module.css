@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+}
+
+.name{
+    display: flex;
+    font-family: 'Caudex', serif;
+    justify-content: center;
+}
+
+.profile {
+    font-family: 'Caudex', serif;
+    width: 50vw;
+   
+}
+
+.skillset {
+    font-family: 'Caudex', serif;
+    width: 50vw;
+   
+
+}
+
+
+.experience {
+    font-family: 'Caudex', serif;
+   
+    width: 50vw;
+}
+
+.workExperience {
+    font-family: 'Caudex', serif;
+   
+    width: 50vw;
+}
+
+.image {
+    /* object-fit: contain; */
+}

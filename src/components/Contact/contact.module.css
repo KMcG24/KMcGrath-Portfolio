@@ -1,0 +1,21 @@
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.email {
+  margin-left: 100px;
+    width: 30vw;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 20vw;
+}
+
+/* NEED TO MAKE RESPONSIVE */

@@ -8,9 +8,11 @@ export default () =>
 <img src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="computer and phone that says developer" />
 
 
-<div className={css.text}>
-<h1 className={css.name}> KIM McGRATH </h1>
+
+
 <div className={css.links}>
+<h2>Kim McGrath</h2>
+<br></br>
 
 <Link className={css.about} to="About">About Me</Link>
 <br></br>
@@ -23,6 +25,6 @@ export default () =>
 
 
 </div>
-</div>
+
 
 </>

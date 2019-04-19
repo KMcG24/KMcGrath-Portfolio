@@ -6,12 +6,19 @@ import { Link } from "gatsby"
 export default () => 
 <>
 <div className={css.projects}>
-<h1 className={css.articles}>Articles</h1>
+<div className={css.container}>
+<div className={css.articles}>
+<h1 className={css.articlesh1}>Articles</h1>
 <a href="https://medium.com/@KLMcGrath2/mongoose-schemas-in-react-f5c0afa5a47d">Mongoose Schemas in React</a>
+</div>
 <h1 className={css.gatsby}>Gatsby</h1>
 <h1 className={css.react}>React</h1>
-<h1 className={css.fullstack}>Full Stack</h1>
+<div className={css.fullstack}>
+<h1 className={css.fullstackh1}>Full Stack</h1>
+{/* Need to put link to updated Santander project here */}
+</div> 
 </div>
 
-<img src="https://images.unsplash.com/photo-1518367762352-defc3c7f237a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"></img>
+<img className={css.image} src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="colorful paintbrushes" ></img>
+</div>
 </>
