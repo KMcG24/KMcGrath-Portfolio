@@ -1,0 +1,53 @@
+.links {
+border: 2px #404040;
+background: lightgray;
+padding: 1vw;
+width: 30vw;
+}
+
+.home {
+display: in-line;
+text-decoration: none;
+color: #404040;
+font-family: 'Caudex', serif;
+padding: 1vw;
+
+
+}
+
+.about {
+    display: in-line;
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Caudex', serif;
+    padding: 1vw;
+    
+}
+
+.cv {
+    display: in-line;
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Caudex', serif;
+    padding: 1vw;
+    
+
+}
+
+.projects {
+    display: in-line;
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Caudex', serif;
+    padding: 1vw;
+    
+}
+
+.contact {
+    display: in-line;
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Caudex', serif;
+    padding: 1vw;
+    
+}

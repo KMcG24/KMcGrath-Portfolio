@@ -39,5 +39,7 @@
 
 .image {
     width: 50vw;
+    /* height: 100vh;
+    object-fit: contain; */
 }
 /* NEED TO MAKE RESPONSIVE */

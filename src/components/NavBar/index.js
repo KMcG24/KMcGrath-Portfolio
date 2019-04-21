@@ -6,11 +6,11 @@ export default () =>
 <>
 <div>
 <div className={css.links}>
-<Link to="index">Home</Link>
-<Link to="about">About Me</Link>
-<Link to="CV">CV</Link>
-<Link to="Projects">Projects</Link>
-<Link to="Contact">Contact</Link>
+<Link className={css.home} to="index">Home</Link>
+<Link className={css.about}to="about">About Me</Link>
+<Link className={css.cv}to="CV">CV</Link>
+<Link className={css.projects}to="Projects">Projects</Link>
+<Link className={css.contact}to="Contact">Contact</Link>
 </div>
 {/* <ShareLink/>
 <ShareLink/> */}

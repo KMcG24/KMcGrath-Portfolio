@@ -6,37 +6,38 @@
     display: flex;
     font-family: 'Caudex', serif;
     justify-content: center;
+    color: #404040;
 }
 
 .profile {
     font-family: 'Caudex', serif;
     width: 50vw;
-   
+    color: #404040;
 }
 
 .skillset {
     font-family: 'Caudex', serif;
     width: 50vw;
-   
+    color: #404040;
 
 }
 
 
 .experience {
     font-family: 'Caudex', serif;
-   
+    color: #404040;
     width: 50vw;
 }
 
 .workExperience {
     font-family: 'Caudex', serif;
-   
+    color: #404040;
     width: 50vw;
 }
 
 .education {
     font-family: 'Caudex', serif;
-   
+    color: #404040;
     width: 50vw;
 }
 .image {
