@@ -10,6 +10,8 @@
 
 .greeting {
     font-family: 'Caudex', serif;
+    color: #404040;
+
 }
 
 .name {
@@ -18,6 +20,7 @@
     align-items: center;
     width: 30vw;
     font-family: 'Caudex', serif;
+    color: #404040;
 }
 
 .email {
@@ -26,6 +29,7 @@
     align-items: center;
     width: 30vw;
     font-family: 'Caudex', serif;
+    color: #404040;
 }
 
 .message {
@@ -35,6 +39,7 @@
     width: 50vw;
     height: 20vw;
     font-family: 'Caudex', serif;
+    color: #404040;
 }
 
 .image {
