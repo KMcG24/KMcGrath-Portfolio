@@ -1,7 +1,7 @@
 .about {
     display: flex;
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
   
 
 
@@ -9,21 +9,55 @@
 
 .aboutPhoto {
     display: flex;
-    height: 600px;
+    height: 100vh;
     object-fit: contain;
    
+}
+
+.h3 {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    transition: transform 0.3s;
+   margin-left: 5vw;
+}
+
+.h3:hover {
+    color: gold;
+    transform: scale(1.2);
+    /* font-size: calc(3vh * 2); */
 }
 
 .text {
     margin-right: 100px;
     margin-top: 50px;
     justify-content: center;
-  
-  
+}
+
+.para1 {
+margin-left: 5vw;
+}
+
+.para2 {
+    margin-left: 5vw;
+}
+
+.closing {
+    margin-left: 5vw;
 }
 
 .greeting {
     display: flex;
     justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 6vh;
     
+}
+.greeting:hover {
+    color: gold;
+}
+
+.aboutNavBar {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
 }

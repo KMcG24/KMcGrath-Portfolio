@@ -1,18 +1,36 @@
 .links {
+    display: flex;
 border: 2px #404040;
 background: lightgray;
 padding: 1vw;
-width: 30vw;
+width: 98vw;
+justify-content: flex-end;
+position: absolute;
+height: 5vh;
+
 }
 
+/* .h3 {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    transition: transform 0.3s;
+   margin-left: 5vw;
+}
 
+.h3:hover {
+    color: gold;
+    transform: scale(1.2);
+  
+} */
 
 .home {
 display: in-line;
 text-decoration: none;
-color: #404040;
-font-family: 'Caudex', serif;
+font-family: var(--main-font);
+color:var(--main-font-color);
 padding: 1vw;
+transition: transform 0.3s;
+padding-right: 5vw;
 
 }
 
@@ -24,9 +42,10 @@ padding: 1vw;
 .about {
     display: in-line;
     text-decoration: none;
-    color: #404040;
-    font-family: 'Caudex', serif;
+    font-family: var(--main-font);
+color:var(--main-font-color);
     padding: 1vw;
+    padding-right: 5vw;
 }
 .about:hover {
     font-size: 25px;
@@ -35,9 +54,10 @@ padding: 1vw;
 .cv {
     display: in-line;
     text-decoration: none;
-    color: #404040;
-    font-family: 'Caudex', serif;
+    font-family: var(--main-font);
+color:var(--main-font-color);
     padding: 1vw;
+    padding-right: 5vw;
 }
 .cv:hover {
     font-size: 25px;
@@ -46,9 +66,10 @@ padding: 1vw;
 .projects {
     display: in-line;
     text-decoration: none;
-    color: #404040;
-    font-family: 'Caudex', serif;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
     padding: 1vw;
+    padding-right: 5vw;
 }
 .projects:hover {
     font-size: 25px;
@@ -57,8 +78,8 @@ padding: 1vw;
 .contact {
     display: in-line;
     text-decoration: none;
-    color: #404040;
-    font-family: 'Caudex', serif;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
     padding: 1vw;
 }
 .contact:hover {

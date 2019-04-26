@@ -8,9 +8,10 @@ import Projects from "../components/Projects"
 
 export default () => 
 <>
+<NavBar/>
 <Projects/>
 
-<NavBar/>
+
 
 
 </>

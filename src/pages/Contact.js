@@ -6,7 +6,8 @@ import { Link } from "gatsby"
 
 export default () => 
 <>
-<Contact/>
 <NavBar/>
+<Contact/>
+
 </>
 

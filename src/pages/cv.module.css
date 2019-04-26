@@ -4,43 +4,153 @@
 
 .name{
     display: flex;
-    font-family: 'Caudex', serif;
     justify-content: center;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
+
+.name:hover {
+    color: gold;
+  }
 
 .profile {
-    font-family: 'Caudex', serif;
     width: 50vw;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
 
-.skillset {
-    font-family: 'Caudex', serif;
-    width: 50vw;
-    color: #404040;
+.profileh3 {
+    padding-bottom: 3vh;
+}
+
+.profileh3:hover {
+    color: gold;
+  }
+
+
+
+.jrdev {
 
 }
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+}
+
+.git {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+/* .grow:hover {
+    animation: grow 1s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@keyframes grow {
+0% {
+transform: scale(1);
+}
+100% {
+    transform: scale(1.5)
+}
+} */
+
+.react {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+.node {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.express {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.javascript {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.gatsby {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.mongo {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.mongoose {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.css {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.html {
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    padding-bottom: 5vw;
+}
+
+.skillseth3 {
+    padding-bottom: 3vh;
+}
+
+.skillseth3:hover {
+    color: gold;
+    
+  }
 
 
 .experience {
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
     width: 50vw;
 }
 
 .workExperience {
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
     width: 50vw;
 }
 
 .education {
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
     width: 50vw;
 }
 .image {
     padding-left: 2vw;
+    height: 100vh;
+    object-fit: contain;
     /* object-fit: contain; */
 }

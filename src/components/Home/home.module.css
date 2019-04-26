@@ -1,20 +1,12 @@
 .landing {
     display: flex;
+     
 }
 
-
-
-
-/* .name {
-    display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-   font-size: 30px;
-    color: #404040;
-    font-family: 'Caudex', serif;
-
-} */
+.image {
+    height: 100vh;
+    object-fit: contain;
+}
 
 
 .links {
@@ -23,57 +15,96 @@ align-items: center;
     margin-left: 13vw;
 }
 
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--main-font);
+    color:var(--main-font-color);  
+}
+
+.name:hover{
+    color: gold;
+}
+
+.line {
+    border-top: 2px black solid;
+    width: 30vw;
+}
+
 .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
+.about:hover {
+    color: gold;
+    font-size: 40px;
+   
+  }
 
 .cv {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }  
+
+.cv:hover {
+    color: gold;
+    font-size: 40px;
+  }
 
 .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
-    color: #404040;
+    font-family: var(--main-font);
+color:var(--main-font-color);
 }
+.projects:hover {
+    color: gold;
+    font-size: 40px;
+  }
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
-    color: #404040;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
 }
+.contact:hover {
+    color: gold;
+    font-size: 40px;
+  }
 
 .links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Caudex', serif;
     text-decoration: none;
     font-size: 30px;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
+
+

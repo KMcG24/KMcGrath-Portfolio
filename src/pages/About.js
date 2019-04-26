@@ -6,8 +6,9 @@ import NavBar from "../components/NavBar"
 
 export default () => 
 <>
-<About/>
 <NavBar/>
+<About/>
+
 
 
 </>

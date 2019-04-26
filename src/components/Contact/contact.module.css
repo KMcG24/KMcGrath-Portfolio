@@ -1,16 +1,19 @@
 .container {
     display: flex;
+
 }
 
 .formContainer {
     display: flex;
     flex-direction: column;
     padding-right: 2vw;
+    padding-top: 5vh;
+    padding-left: 2vw;
 }
 
 .greeting {
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 
 }
 
@@ -19,8 +22,8 @@
     justify-content: center;
     align-items: center;
     width: 30vw;
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
 
 .email {
@@ -28,8 +31,8 @@
     justify-content: center;
     align-items: center;
     width: 30vw;
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
 
 .message {
@@ -38,12 +41,16 @@
     align-items: center;
     width: 50vw;
     height: 20vw;
-    font-family: 'Caudex', serif;
-    color: #404040;
+    font-family: var(--main-font);
+    color:var(--main-font-color);
 }
 
 .image {
     width: 50vw;
+    height: 100vh;
+    object-fit: contain;
+    margin-left: 2vw;
+
     /* height: 100vh;
     object-fit: contain; */
 }
