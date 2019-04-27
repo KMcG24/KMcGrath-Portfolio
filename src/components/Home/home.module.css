@@ -46,7 +46,7 @@
 }
 .about:hover {
     color: gold;
-    font-size: 40px;
+    transform: scale(1.2);
    
   }
 
@@ -63,7 +63,7 @@
 
 .cv:hover {
     color: gold;
-    font-size: 40px;
+    transform: scale(1.2);
   }
 
 .projects {
@@ -78,7 +78,7 @@ color:var(--main-font-color);
 }
 .projects:hover {
     color: gold;
-    font-size: 40px;
+    transform: scale(1.2);
   }
 
 .contact {
@@ -93,7 +93,7 @@ color:var(--main-font-color);
 }
 .contact:hover {
     color: gold;
-    font-size: 40px;
+    transform: scale(1.2);
   }
 
 .links {
