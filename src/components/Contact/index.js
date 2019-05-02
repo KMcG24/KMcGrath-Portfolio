@@ -10,9 +10,9 @@ export default () =>
 
 <div className={css.formContainer}>
 <div className={css.greeting}>
-<h4>Please contact me at:</h4>
-<h3>KLMcGrath2@gmail.com</h3>
-<p>or, leave me a message below</p>
+{/* <h4>Please contact me at:</h4>
+<h3>KLMcGrath2@gmail.com</h3> */} 
+<h3>Please leave me a message below</h3>
 <p>I look forward to hearing from you!</p>
 </div>
 

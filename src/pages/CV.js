@@ -21,6 +21,8 @@ export default () =>
 
 <br></br>
 <br></br>
+<div className={css.line}></div>
+<br></br>
 
 <div className={css.skillset}>
 <h3 className={css.skillseth3}>Skill set</h3>
@@ -50,7 +52,7 @@ export default () =>
 </div>
 </div>
 </div>
-
+<div className={css.line}></div>
 
 <img className={css.image} src="https://images.unsplash.com/photo-1488903809927-48c9b4e43700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/>
 

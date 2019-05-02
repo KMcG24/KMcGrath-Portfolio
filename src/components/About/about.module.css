@@ -61,3 +61,16 @@ margin-left: 5vw;
     position: absolute;
     justify-content: flex-end;
 }
+
+@media (max-width: 800px) {
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutPhoto {
+    display: flex;
+   padding-top: 5vh;
+}
+}

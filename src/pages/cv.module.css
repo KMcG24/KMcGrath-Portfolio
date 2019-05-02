@@ -17,6 +17,7 @@
     width: 50vw;
     font-family: var(--main-font);
     color:var(--main-font-color);
+    margin-left: 2vw;
 }
 
 .profileh3 {
@@ -29,14 +30,18 @@
 
 
 
-.jrdev {
 
+.line {
+
+    border-top: 2px black solid;
+    width: 55vw;
 }
 
 .logo {
     display: flex;
     flex-wrap: wrap;
     padding: 2vw;
+    margin-left: 2vw;
 }
 
 .git {
@@ -123,6 +128,7 @@ transform: scale(1);
 
 .skillseth3 {
     padding-bottom: 3vh;
+    margin-left: 2vw;
 }
 
 .skillseth3:hover {
@@ -150,7 +156,21 @@ transform: scale(1);
 }
 .image {
     padding-left: 2vw;
-    height: 100vh;
+    height: 95vh;
     object-fit: contain;
+    margin-top: 10vh;
     /* object-fit: contain; */
+}
+
+@media (max-width: 800px) {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
 }
