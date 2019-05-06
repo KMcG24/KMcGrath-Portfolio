@@ -21,10 +21,10 @@ export default () =>
 <br></br>
 <Link className={css.cv} to="CV">CV</Link>
 <br></br>
-{/* <Link className={css.projects} to="Projects">Projects</Link> */}
-{/* <br></br> */}
+<Link className={css.projects} to="Projects">Projects</Link> 
+<br></br>
 <Link className={css.contact} to="Contact">Contact</Link>
-</div>
+</div> 
 
 
 </div>
