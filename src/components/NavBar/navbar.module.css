@@ -2,11 +2,14 @@
     display: flex;
 border: 2px #404040;
 background: lightgray;
-padding: 1vw;
+padding-right: 5vw;
+padding-bottom: 1vw;
+
 width: 98vw;
 justify-content: flex-end;
 position: absolute;
 height: 5vh;
+
 
 }
 
@@ -34,10 +37,7 @@ padding-right: 5vw;
 
 }
 
-.home:hover {
-    font-size: 25px;
-    
-}
+
 
 .about {
     display: in-line;
@@ -47,9 +47,7 @@ color:var(--main-font-color);
     padding: 1vw;
     padding-right: 5vw;
 }
-.about:hover {
-    font-size: 25px;
-}
+
 
 .cv {
     display: in-line;
@@ -59,9 +57,7 @@ color:var(--main-font-color);
     padding: 1vw;
     padding-right: 5vw;
 }
-.cv:hover {
-    font-size: 25px;
-}
+
 
 .projects {
     display: in-line;
@@ -71,9 +67,7 @@ color:var(--main-font-color);
     padding: 1vw;
     padding-right: 5vw;
 }
-.projects:hover {
-    font-size: 25px;
-}
+
 
 .contact {
     display: in-line;
@@ -81,7 +75,4 @@ color:var(--main-font-color);
     font-family: var(--main-font);
     color:var(--main-font-color);
     padding: 1vw;
-}
-.contact:hover {
-    font-size: 25px;
 }

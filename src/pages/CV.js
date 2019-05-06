@@ -12,14 +12,14 @@ export default () =>
 <div className={css.container}>
 
 <div className={css.textContainer}>
-<h1 className={css.name}>Kim McGrath</h1>
 
 <div className={css.profile}>
 <h3 className={css.profileh3}>Profile</h3>
 <div className={css.profileText}>I am a newly qualified <b className={css.jrdev}>junior developer</b> looking for an entry level position.  Last year, I decided to re-train as a software developer and will complete a 16 week coding bootcamp in May.  In this bootcamp, I have learned the skills necessary to work for you.  I am over the moon to be joining the tech world, and the opportunity to diligently and creatively solve problems with code.</div>
+<br></br>
+<div>Please contact me if you would like to see a full CV.</div>
 </div>
 
-<br></br>
 <br></br>
 <div className={css.line}></div>
 <br></br>
